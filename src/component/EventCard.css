@@ -1,0 +1,65 @@
+.Event-heading{
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+
+.Event-container{
+  max-width: 80%;
+  margin:auto;
+  display: grid;
+  grid-template-columns: (3, 1fr);
+  grid-gap:40px;
+  padding-bottom: 5rem;
+}
+
+.Event-card{
+  background: #2a2a2a;
+  grid-template-columns: repeat(2, auto);
+  width: 30%;
+  margin: 10rem 10rem;
+  padding: 0rem 1rem;
+  box-shadow: 0 0 .4rem .4rem rgba(0, 0, 0, 0.2);
+}
+
+.Event-card img{
+  margin: 1rem;
+  width:50%;
+}
+.Event-title{
+  color: #fff;
+  padding: 1rem 0;
+}
+.Event-Details p{
+  color: #fff;
+  padding-bottom: 1rem ;
+  font: size 1.1rem;
+  text-align: justify;
+}
+
+.pro-btns{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.pro-btns .butns{
+ padding: 1rem 1rem;
+}
+
+
+@media screen and (max-width: 400px) {
+  .Event-container{
+    max-width: 20%;
+    margin: auto;
+
+    grid-template-columns: 1fr;
+  }
+  
+}
